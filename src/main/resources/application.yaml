@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    # This is the SqLite Dialect extension to support @Lob
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    hibernate:
+      ddl-auto: update
+  main:
+    web-application-type: none
+
+
+
+
